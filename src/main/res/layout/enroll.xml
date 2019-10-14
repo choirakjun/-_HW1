@@ -10,7 +10,7 @@
     <EditText
 
         android:id="@+id/enroll_input_id"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:text="ID 입력 하세요"
         android:layout_centerHorizontal="true"
         android:layout_weight="1"
@@ -20,13 +20,13 @@
         android:layout_height="wrap_content"
         android:text="ID 검사"
         android:layout_centerHorizontal="true"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:id="@+id/check_id"
         android:layout_weight="1"
         ></Button>
     <EditText
         android:id="@+id/enroll_input_pw"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_weight="1"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:text="PASSWORD 검사"
         android:layout_centerHorizontal="true"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_weight="1"
         android:id="@+id/check_pw"
         ></Button>
@@ -45,7 +45,7 @@
 
     <EditText
         android:id="@+id/enroll_name"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_centerHorizontal="true"
@@ -53,7 +53,7 @@
 
     <EditText
         android:id="@+id/enroll_phone_number"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -61,7 +61,7 @@
 
     <EditText
         android:id="@+id/enroll_address"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_weight="1"
@@ -69,7 +69,7 @@
 
 
     <TextView
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="MobileProgramming HW 최락준_어플 과제는 「개인정보보호법」 제15조제1항제1호, 제17조제1항제1호, 제23조제1호, 제24조제1항 제1호에 따라
@@ -78,7 +78,7 @@
 이용자가 제공한 모든 정보는 아래의 목적에 필요한 용도 이외로는 사용되지 않으며 이용 목적이 변경될 시에는 이를 알리고 동의를 구할 것입니다."></TextView>
 
     <RadioGroup
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ok_false_enroll"
         android:layout_weight="1"
@@ -89,13 +89,13 @@
             android:id="@+id/decline"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_width="wrap_content" />
+            android:layout_width="match_parent" />
         <RadioButton
             android:id="@+id/accept"
             android:text="Accept"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_width="wrap_content" />
+            android:layout_width="match_parent" />
     </RadioGroup>
 
     <Button
@@ -103,7 +103,7 @@
         android:layout_weight="1"
         android:text="회원 가입 정보 제출"
         android:layout_centerHorizontal="true"
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:id="@+id/submit"
         ></Button>
 
