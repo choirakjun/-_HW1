@@ -148,7 +148,7 @@ public class enroll extends Activity {
                 if(tt==false)
                 {
 
-                    Toast toast = Toast.makeText(getApplicationContext(), "비밀번호는 대소문자,숫자,특수문자로 구성되며 9-12자리여야 합니다.", Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getApplicationContext(), "비밀번호는 대,소문자,숫자,특수문자로 구성되며 9-12자리여야 합니다.", Toast.LENGTH_LONG);
                     toast.show();
 
                 }
