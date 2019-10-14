@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+
+    <EditText
+
+        android:id="@+id/enroll_input_id"
+        android:layout_width="200dp"
+        android:text="ID 입력 하세요"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="ID 검사"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:id="@+id/check_id"
+        android:layout_weight="1"
+        ></Button>
+    <EditText
+        android:id="@+id/enroll_input_pw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="PW 입력 하세요(대소문자 및 숫자 특수문자 포함 9-12자리로 구성)"></EditText>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="PASSWORD 검사"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:id="@+id/check_pw"
+        ></Button>
+
+
+
+    <EditText
+        android:id="@+id/enroll_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:text="이름 입력 하세요"></EditText>
+
+    <EditText
+        android:id="@+id/enroll_phone_number"
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="전화번호 입력 하세요"></EditText>
+
+    <EditText
+        android:id="@+id/enroll_address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="주소 입력 하세요"></EditText>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MobileProgramming HW 최락준_어플 과제는 「개인정보보호법」 제15조제1항제1호, 제17조제1항제1호, 제23조제1호, 제24조제1항 제1호에 따라
+아래와 같이 개인정보의 수집. 이용에 관하여 귀하의 동의를 얻고자 합니다.
+이용자의 사전 동의 없이는 이용자의 개인정보를 함부로 공개하지 않으며, 수집된 정보는 아래와 같이 이용하고 있습니다.
+이용자가 제공한 모든 정보는 아래의 목적에 필요한 용도 이외로는 사용되지 않으며 이용 목적이 변경될 시에는 이를 알리고 동의를 구할 것입니다."></TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok_false_enroll"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:text="Decline"
+            android:id="@+id/decline"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+        <RadioButton
+            android:id="@+id/accept"
+            android:text="Accept"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="회원 가입 정보 제출"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:id="@+id/submit"
+        ></Button>
+
+
+</LinearLayout>
